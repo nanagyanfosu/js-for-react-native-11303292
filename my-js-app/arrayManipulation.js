@@ -37,3 +37,4 @@ function formatArrayStrings() {
 console.log('Enter an array of strings separated by commas: ');
 console.log(formatArrayStrings(processedArray));
 
+module.exports = { formatArrayStrings };
