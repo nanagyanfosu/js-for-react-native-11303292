@@ -1,50 +1,10 @@
-# Welcome to your Expo app 👋
+# js-for-react-native-11303292
+Name: Theoford Nana Gyanfosu, Student ID: 11303292.
+This is a javascript program that allows you to input any numbers of your choice and returns a specific result to determine if it is even or odd. The program is divided into 3 tasks and each task carries its own function. 
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+For the first task, a function is called and it returns an array. The function makes use of 'readlineSync'
+to allow the program to run in the terminal of VS code. It uses a prompt to ask users to input any numbers of their choice. An even number is squared and an odd number is tripled.
 
-## Get started
+In the second task, the user is prompted to enter a desired number of strings. A string that corresponds to an even number is capitalized whereas that of an odd number is lowercased: all based on the array of numbers already requested.
 
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+The third task creates a a new file and imports the function in the second task to be used. It returns the values of all the functions in the previous file as an array of objects. It groups each element of the array based on the original string input by the user, the modified string and automatically assigns an ID number to each of them.
